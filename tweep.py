@@ -4,13 +4,13 @@ import tweepy
 #I prepared this class for simplicity. Fill in details and use it.
 class Tweet:
     #My Twitter consumer key
-    consumer_key='Jj6wgCvliZhHdpFbXxkl937Dn'
+    consumer_key='consumer key'
     #My consumer secret
-    consumer_secret='W0N8IcQqrOYYPcJPJQlVLyVc3efcGRcoOs826MCApXH00y2hI3'
+    consumer_secret='consumer secret'
     #My access token
-    access_token='108912006-YS9hYivbERIZzcNpugqXX7OFcPXr4DnFryLR0er3'
+    access_token='access token'
     #My access token secret
-    access_token_secret='LRVFnGbZYGT4y0VISJ8Eza99GVoQA7ocqpFAfSTM4oimC'
+    access_token_secret='access token secret'
 
     def __init__(self):
         self.auth = tweepy.OAuthHandler(self.consumer_key,self.consumer_secret)

@@ -37,7 +37,7 @@ def handle(pesan):
 
 
 # Create a bot object with API key
-bot = telepot.Bot('184876475:AAFKsZ6A9e-naIqJnvAXARLJ8Xuv27ODLHQ')
+bot = telepot.Bot('token')
 
 # Attach a function to notifyOnMessage call back
 bot.notifyOnMessage(handle)
